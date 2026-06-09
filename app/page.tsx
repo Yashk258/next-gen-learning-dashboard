@@ -26,7 +26,7 @@ export default async function Home() {
     if (error) {
       return (
         <main className="min-h-screen flex items-center justify-center bg-black text-red-400">
-          Failed to load courses.
+          <pre>{JSON.stringify(error, null, 2)}</pre>
         </main>
       );
     }
