@@ -23,13 +23,13 @@ export default async function Home() {
     .from("courses")
     .select("*");
 
-  if (error) {
-    return (
-      <main className="min-h-screen flex items-center justify-center bg-black text-red-400">
-        Failed to load courses.
-      </main>
-    );
-  }
+    if (error) {
+      return (
+        <main className="min-h-screen flex items-center justify-center bg-black text-red-400">
+          Failed to load courses.
+        </main>
+      );
+    }
 
   return (
     <div className="flex min-h-screen bg-black text-white">
