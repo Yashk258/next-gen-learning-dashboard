@@ -1,23 +1,28 @@
 # Next-Gen Learning Dashboard
 
 ## Tech Stack
-- Next.js App Router
-- TypeScript
+- Next.js 16 (App Router)
+- Supabase
 - Tailwind CSS
 - Framer Motion
-- Supabase
 - Lucide React
+- TypeScript
 
 ## Features
-- Server-side data fetching
+- Server-side data fetching from Supabase
 - Dynamic course cards
-- Animated progress indicators
-- Bento Grid dashboard
+- Animated progress bars
+- Bento grid dashboard
 - Responsive design
 - Loading skeletons
-- Hover interactions
+- Error handling
 
-## Setup
+## Environment Variables
+
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+
+## Run Locally
 
 npm install
 npm run dev
